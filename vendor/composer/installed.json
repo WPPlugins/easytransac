@@ -1,0 +1,31 @@
+[
+    {
+        "name": "easytransac/easytransac-sdk-php",
+        "version": "1.0.5",
+        "version_normalized": "1.0.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/easytransac/easytransac-sdk-php.git",
+            "reference": "21fdee30528cef2e4a4fe2f0def79ac678b0b14c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/easytransac/easytransac-sdk-php/zipball/21fdee30528cef2e4a4fe2f0def79ac678b0b14c",
+            "reference": "21fdee30528cef2e4a4fe2f0def79ac678b0b14c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5"
+        },
+        "time": "2017-01-19 11:24:39",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "EasyTransac\\": "sdk/EasyTransac/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "description": "A SDK to make payment with the EasyTransac API"
+    }
+]
